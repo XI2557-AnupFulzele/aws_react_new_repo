@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API ="http://localhost:3001/user"
+const API ="http://newawsdev-env.eba-kvjiwvfh.ap-south-1.elasticbeanstalk.com/user"
 function User() {
     const [formState, setFormState] = useState(null);
     const [userState, setUserState] = useState([
